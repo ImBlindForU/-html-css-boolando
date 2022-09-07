@@ -158,3 +158,17 @@
 .square:hover{
     color: red;
 }
+
+.second{
+    visibility: hidden;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.first:hover{
+    visibility: hidden;
+}
+
+.second:hover{
+    visibility: visible;
+}
