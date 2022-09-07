@@ -18,14 +18,36 @@
     background-color: aqua  ;
 }
 
-.flex-container{
+.flex{
     width: 70%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+
     
     /* DEBUG */
     background-color: red;
+}
+
+.justify{
+    justify-content: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
     
 }
 
+.top{
+    margin-top: 5rem;
+}
+/* MAIN */
+
+.card{
+    width: calc(100% / 3 - 10px);
+    margin-top: 3rem;
+
+    /* DEBUG */ 
+    border: 1px solid green;
+    background-color: lightgoldenrodyellow;
+    height: 600px;
+}
