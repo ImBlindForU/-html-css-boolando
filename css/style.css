@@ -10,12 +10,19 @@
 
 .container{
     width: 100%;
-    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     /* DEBUG */
     /* background-color: aqua  ; */
+}
+
+.auno{
+    height: 100px;
+}
+
+.adue{
+    height: 150px;
 }
 
 .flex{
@@ -185,7 +192,6 @@
     text-decoration: none;
     color: #e7e7e7;
     margin-right: 0.3rem;
-    padding-top: 0.5rem;
 }
 
 .loghi i{
@@ -199,3 +205,4 @@
 .card:last-child{
     margin-bottom: 4.5rem;
 }
+
