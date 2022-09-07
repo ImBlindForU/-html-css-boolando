@@ -74,20 +74,87 @@
 
 
 .logo img{
-    
     height: 50px;
 }
 
+.z{
+    z-index: 10;
+}
 
 /* MAIN */
 
 .card{
     width: calc(100% / 3 - 10px);
     margin-top: 3rem;
+    position: relative;
 
     /* DEBUG */ 
-    border: 1px solid green;
-    background-color: lightgoldenrodyellow;
-    height: 600px;
+    /* border: 1px solid green; */
+    /* background-color: lightgoldenrodyellow;
+    height: 600px; */
 }
 
+.img{
+    position: relative;
+}
+
+.img img{
+    width: 100%;
+    /* height: 200px; */
+}
+
+.sale{
+    color: white;
+    padding: 0.4em;
+
+}
+
+.red{
+    background-color: red;
+}
+
+.percent{
+    position: absolute;
+    left: 0px;
+    bottom: 10%;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 3rem;
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.description{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.tred{
+    color: red;
+}
+
+.tunderline{
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.green{
+    background-color: green;
+    position: absolute;
+    left: 12%;
+    bottom: 10%;
+
+}
+
+.square:hover{
+    color: red;
+}
